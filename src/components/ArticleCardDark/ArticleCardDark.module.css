@@ -1,0 +1,72 @@
+.articleDarkMain {
+  background-color: #000000;
+  padding-top: 20px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.astronautImage {
+  width: 100%;
+}
+
+.articleDarkMainTextContainer {
+  color: white;
+}
+
+.articleDarkMainTextContainer h2 {
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 1px;
+  margin-top: 8px;
+}
+
+.articleDarkMainTextContainer p {
+  font-weight: 400;
+  font-size: 13px;
+  margin-top: 8px;
+  color: #b5b5b5;
+  margin-bottom: 68px;
+}
+
+.articledarkSecondaryContainer h5 {
+  color: #c6c6c6;
+  font-weight: 400;
+  font-size: 12px;
+  padding-left: 16px;
+  margin-top: 18px;
+}
+
+.articledarkSecondaryContainer p {
+  color: white;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  padding-left: 16px;
+  letter-spacing: 1px;
+  margin-top: 5px;
+}
+
+.userAndPostTime {
+  display: flex;
+  color: #b5b5b5;
+  gap: 4px;
+  padding-left: 16px;
+  margin-top: 2px;
+}
+
+.userAndPostTime h4 {
+  font-weight: 300;
+  font-size: 12px;
+}
+
+.articleDarkSecondaryImage {
+  width: 100%;
+}
+.articledarkSecondaryContainer {
+  padding-top: 16px;
+  padding-bottom: 37px;
+}
+
+.userImage {
+  width: 13px;
+}
