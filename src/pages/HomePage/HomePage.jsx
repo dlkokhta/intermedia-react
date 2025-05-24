@@ -3,6 +3,7 @@ import ArticleCardPrimary from "../../components/ArticleCardPrimary/ArticleCardP
 import CreateArticleCard from "../../components/CreateArticleCard/CreateArticleCard";
 import NewsCardPrimary from "../../components/NewsCardPrimary/NewsCardPrimary";
 import ArticleCardDark from "../../components/ArticleCardDark/ArticleCardDark";
+import MobileCarousel from "../../components/Carousel/MobileCarousel";
 
 const HomePage = () => {
   return (
@@ -14,6 +15,7 @@ const HomePage = () => {
       <ArticleCardPrimary />
       <NewsCardPrimary />
       <ArticleCardDark />
+      <MobileCarousel />
     </>
   );
 };
