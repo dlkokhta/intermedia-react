@@ -1,0 +1,72 @@
+.mobileHeader {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 34px;
+}
+
+.topRow {
+  height: 46px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 16px;
+  padding-right: 27px;
+}
+
+.mainLogo {
+  width: 31px;
+  height: 46px;
+}
+
+.signInLogo {
+  width: 24px;
+}
+
+.searchContainer {
+  width: 100%;
+  max-width: 100%;
+}
+
+.searchInput {
+  border-radius: 12px;
+  padding-left: 8px;
+  border: 1px solid #e5e5e5;
+  outline: none;
+}
+.searchInput::placeholder {
+  font-size: 12px;
+}
+
+.inputSignIn {
+  display: flex;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  gap: 8px;
+}
+
+.headerLine {
+  border-top: 0.5px solid #e5e5e5;
+}
+
+nav {
+  padding-left: 16px;
+  padding-right: 30px;
+  margin-top: 12px;
+}
+
+nav ul {
+  display: flex;
+  font-size: 12px;
+  justify-content: space-between;
+}
+
+.arrowDropDown {
+  width: 7px;
+  height: 3px;
+  margin-top: 4px;
+}
+
+.categoryAndArrow {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
