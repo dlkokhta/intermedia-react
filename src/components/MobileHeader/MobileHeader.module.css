@@ -57,6 +57,7 @@ nav ul {
   display: flex;
   font-size: 12px;
   justify-content: space-between;
+  color: #636363;
 }
 
 .arrowDropDown {
