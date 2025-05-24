@@ -1,0 +1,61 @@
+.newsCardPrimaryContainer {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.newsCardPrimaryTitle {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.newsCardPrimaryTitle h1 {
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.titleLine {
+  background-color: #dadada;
+  height: 1px;
+  width: 100%;
+}
+
+.newsArticleDetails h2 {
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 1px;
+  line-height: 23px;
+}
+
+.spaceShipTwo {
+  width: 87px;
+  height: 88px;
+  border-radius: 5px;
+}
+
+.newsArticleDetails {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 14px;
+}
+.newsCardsContainer {
+  margin-top: 24px;
+}
+
+.userAndPostTime {
+  display: flex;
+  gap: 4px;
+  margin-top: 7px;
+}
+
+.userAndPostTime h4 {
+  font-size: 11px;
+  font-weight: 500;
+  color: #474747;
+}
+
+.userImage {
+  width: 13px;
+}
