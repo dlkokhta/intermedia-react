@@ -104,3 +104,13 @@
     padding-right: 90px;
   }
 }
+
+@media screen and (min-width: 1024px) {
+  .cardWrapper {
+    padding: 0;
+    padding-right: 60px;
+  }
+  .createCardArticle {
+    border: none;
+  }
+}

@@ -4,3 +4,19 @@
   width: 100%;
   margin-top: 64px;
 }
+.desktopHeader {
+  display: none;
+}
+
+@media screen and (min-width: 1024px) {
+  .mobileHeader {
+    display: none;
+  }
+  .desktopHeader {
+    display: block;
+  }
+  .containerPrimary {
+    display: flex;
+    margin-top: 30px;
+  }
+}

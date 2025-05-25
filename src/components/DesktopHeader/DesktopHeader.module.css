@@ -1,0 +1,121 @@
+.desktopHeader {
+  display: flex;
+  padding: 12px 64px 12px 164px;
+  align-items: center;
+}
+
+.desktopMainLogo {
+  width: 72px;
+  height: 78px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin-left: 60px;
+}
+
+.searchLogo {
+  width: 24px;
+  margin-left: 60px;
+}
+
+.vectorLogo {
+  width: 14px;
+  margin-left: 24px;
+}
+
+.vectorLogoAndText {
+  display: flex;
+  gap: 5px;
+}
+
+.vectorLogoAndText h4 {
+  font-size: 13px;
+  color: #2e2e2e;
+  letter-spacing: 1px;
+  font-weight: 300;
+}
+
+.desktopNav {
+  display: flex;
+  gap: 16px;
+}
+
+.desktopNavList {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  gap: 14px;
+  letter-spacing: 1px;
+  font-size: 14px;
+  color: #636363;
+  cursor: pointer;
+}
+
+.categoryAndArrow {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.arrowDropDown {
+  width: 10px;
+}
+
+.writeArticleBtn {
+  background-color: #000000;
+  color: white;
+  font-size: 13px;
+  padding: 13px 20px;
+  border-radius: 8px;
+  margin-left: auto;
+  letter-spacing: 1px;
+  border: none;
+  cursor: pointer;
+}
+
+.desktopHeaderLine {
+  border-top: 0.5px solid #e5e5e5;
+}
+
+.desktopNavListSecondary {
+  display: none;
+}
+
+@media screen and (min-width: 1024px) {
+  .desktopHeader {
+    padding-left: 55px;
+    padding-right: 60px;
+    align-items: center;
+  }
+  .desktopMainLogo {
+    margin-left: 60px;
+  }
+  .desktopNav {
+    padding-right: 0;
+  }
+  .searchLogo {
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+  .desktopNavList {
+    display: none;
+  }
+  .desktopNavListSecondary {
+    display: block;
+
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    gap: 14px;
+    letter-spacing: 1px;
+    font-size: 14px;
+    color: #636363;
+    cursor: pointer;
+  }
+
+  .vectorLogoAndText {
+    margin-top: 5px;
+  }
+}

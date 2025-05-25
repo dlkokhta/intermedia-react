@@ -9,13 +9,24 @@ import NewCardGroup from "../../components/NewCardGroup/NewCardGroup";
 import Footer from "../../components/Footer/Footer";
 import styles from "./HomePage.module.css";
 import ArticleCardBlock from "../../components/ArticleCardBlock/ArticleCardBlock";
+import DesktopHeader from "../../components/DesktopHeader/DesktopHeader";
 
 const HomePage = () => {
   return (
     <>
-      <MobileHeader />
-      <ArticleCardPrimary />
-      <CreateArticleCard />
+      <header className={styles.desktopHeader}>
+        <DesktopHeader />
+      </header>
+
+      <header className={styles.mobileHeader}>
+        <MobileHeader />
+      </header>
+
+      <div className={styles.containerPrimary}>
+        <ArticleCardPrimary />
+        <CreateArticleCard />
+      </div>
+
       <ArticleCardBlock />
       <NewsCardPrimary />
       <ArticleCardDark />
