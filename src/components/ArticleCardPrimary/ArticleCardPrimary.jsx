@@ -1,6 +1,6 @@
 import styles from "./ArticleCardPrimary.module.css";
-import spaceship from "../../assets/spaceship.png";
-import userImage from "../../assets/userImage.png";
+import spaceship from "../../assets/spaceship.webp";
+import userImage from "../../assets/userImage.webp";
 
 const ArticleCardPrimary = () => {
   return (
@@ -16,6 +16,9 @@ const ArticleCardPrimary = () => {
           className={styles.spaceshipOne}
           src={spaceship}
           alt="spaceship image"
+          width="317"
+          height="148"
+          loading="lazy"
         />
       </div>
       {/* <div class="article-1-desktop-text">
@@ -35,6 +38,8 @@ const ArticleCardPrimary = () => {
             className={styles.userImage}
             src={userImage}
             alt="user image"
+            width="13"
+            height="13"
             loading="lazy"
           />
         </div>

@@ -15,7 +15,7 @@
 
 .spaceshipOne {
   width: 100%;
-  aspect-ratio: 16 / 9;
+  height: auto;
   margin-bottom: 8px;
   border-radius: 5px;
 }
@@ -28,6 +28,7 @@
 
 .userImage {
   width: 13px;
+  height: auto;
 }
 
 .userAndPostTime {

@@ -1,5 +1,5 @@
 import styles from "./UserCard.module.css";
-import girlImage from "../../assets/girl.png";
+import girlImage from "../../assets/girl.webp";
 import fileIcon from "../../assets/file.png";
 
 const UserCard = () => {

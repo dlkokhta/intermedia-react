@@ -10,6 +10,7 @@
 
 .userInfoImage {
   width: 54px;
+  height: 54px;
 }
 
 .userInfo1 {
@@ -34,6 +35,7 @@
 
 .userStatisticLogo {
   width: 18px;
+  height: 18px;
 }
 
 .userStatisticLogoAndAmount {

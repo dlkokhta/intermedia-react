@@ -1,7 +1,7 @@
 import styles from "./ArticleCardDark.module.css";
-import astronaut from "../../assets/astronaut.png";
-import spaceship from "../../assets/spaceship3.png";
-import userImage from "../../assets/userImage.png";
+import astronaut from "../../assets/astronaut.webp";
+import spaceship from "../../assets/spaceship3.webp";
+import userImage from "../../assets/userImage.webp";
 
 const ArticleCardDark = () => {
   return (

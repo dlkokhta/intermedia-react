@@ -1,11 +1,11 @@
 import { useEffect, useRef, useState } from "react";
 import styles from "./MobileCarousel.module.css";
 
-import carousel1 from "../../assets/carousel1.png";
-import carousel2 from "../../assets/carousel2.png";
+import carousel1 from "../../assets/carousel1.webp";
+import carousel2 from "../../assets/carousel2.webp";
 import carousel3 from "../../assets/carousel3.webp";
-import carousel4 from "../../assets/carousel4.png";
-import carousel5 from "../../assets/carousel5.png";
+import carousel4 from "../../assets/carousel4.webp";
+import carousel5 from "../../assets/carousel5.webp";
 import eyeIcon from "../../assets/eye.png";
 import stopwatchIcon from "../../assets/stopwatch.png";
 import nextArrow from "../../assets/next.png";

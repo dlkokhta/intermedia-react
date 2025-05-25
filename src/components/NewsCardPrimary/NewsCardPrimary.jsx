@@ -1,6 +1,6 @@
 import styles from "./NewsCardPrimary.module.css";
-import userImage from "../../assets/userImage.png";
-import spaceshipTwo from "../../assets/spaceship2.png";
+import userImage from "../../assets/userImage.webp";
+import spaceshipTwo from "../../assets/spaceship2.webp";
 
 const NewsCardPrimary = () => {
   return (
