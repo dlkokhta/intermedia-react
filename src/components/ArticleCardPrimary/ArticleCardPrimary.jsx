@@ -18,7 +18,6 @@ const ArticleCardPrimary = () => {
           alt="spaceship image"
           width="317"
           height="148"
-          loading="lazy"
         />
       </div>
       {/* <div class="article-1-desktop-text">

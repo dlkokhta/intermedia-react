@@ -160,3 +160,39 @@
   height: 18px;
   object-fit: contain;
 }
+
+@media screen and (min-width: 640px) {
+  .arrowLeft {
+    left: 140px;
+  }
+
+  .arrowLeft img {
+    width: 32px;
+  }
+
+  .arrowRight {
+    right: 140px;
+  }
+
+  .arrowRight img {
+    width: 32px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .arrowLeft {
+    left: 205px;
+  }
+
+  .arrowLeft img {
+    width: 32px;
+  }
+
+  .arrowRight {
+    right: 205px;
+  }
+
+  .arrowRight img {
+    width: 32px;
+  }
+}

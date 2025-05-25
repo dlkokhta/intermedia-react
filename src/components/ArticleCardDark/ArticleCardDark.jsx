@@ -11,6 +11,8 @@ const ArticleCardDark = () => {
           className={styles.astronautImage}
           src={astronaut}
           alt="astronaut image"
+          width="343"
+          height="148"
         />
         {/* <img
           className={styles.astronautImage}
