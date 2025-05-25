@@ -1,0 +1,18 @@
+.newsCardPrimaryTitle {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.newsCardPrimaryTitle h1 {
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.titleLine {
+  background-color: #dadada;
+  height: 1px;
+  width: 100%;
+}

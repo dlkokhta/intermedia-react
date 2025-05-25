@@ -5,6 +5,7 @@ import NewsCardPrimary from "../../components/NewsCardPrimary/NewsCardPrimary";
 import ArticleCardDark from "../../components/ArticleCardDark/ArticleCardDark";
 import MobileCarousel from "../../components/Carousel/MobileCarousel";
 import UserCard from "../../components/UserCard/UserCard";
+import NewCardGroup from "../../components/NewCardGroup/NewCardGroup";
 
 const HomePage = () => {
   return (
@@ -18,6 +19,7 @@ const HomePage = () => {
       <ArticleCardDark />
       <MobileCarousel />
       <UserCard />
+      <NewCardGroup />
     </>
   );
 };
