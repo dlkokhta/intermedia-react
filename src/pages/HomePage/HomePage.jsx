@@ -8,6 +8,7 @@ import UserCard from "../../components/UserCard/UserCard";
 import NewCardGroup from "../../components/NewCardGroup/NewCardGroup";
 import Footer from "../../components/Footer/Footer";
 import styles from "./HomePage.module.css";
+import ArticleCardBlock from "../../components/ArticleCardBlock/ArticleCardBlock";
 
 const HomePage = () => {
   return (
@@ -15,8 +16,7 @@ const HomePage = () => {
       <MobileHeader />
       <ArticleCardPrimary />
       <CreateArticleCard />
-      <ArticleCardPrimary />
-      <ArticleCardPrimary />
+      <ArticleCardBlock />
       <NewsCardPrimary />
       <ArticleCardDark />
       <MobileCarousel />
