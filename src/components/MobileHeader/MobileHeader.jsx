@@ -22,7 +22,7 @@ const MobileHeader = () => {
         </div>
       </div>
       <div className={styles.headerLine}></div>
-      <nav class="bottom-row">
+      <nav>
         <ul>
           <div className={styles.categoryAndArrow}>
             <ul>

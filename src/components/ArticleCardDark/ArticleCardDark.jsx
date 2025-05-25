@@ -6,7 +6,7 @@ import userImage from "../../assets/userImage.png";
 const ArticleCardDark = () => {
   return (
     <section className={styles.articleDarkMain}>
-      <div class="article-5-section-1">
+      <div>
         <img
           className={styles.astronautImage}
           src={astronaut}
@@ -18,14 +18,11 @@ const ArticleCardDark = () => {
           src={astronaut}
           alt="astronaut image"
         /> */}
-        <div
-          class="articleDarkMainTextContainer"
-          className={styles.articleDarkMainTextContainer}
-        >
+        <div className={styles.articleDarkMainTextContainer}>
           <h2>
             "ბოდიოიდები" – ორგანოების ტრანსპლანტაციისთვის შექმნილი ადამიანები
           </h2>
-          <p class="article-5-section-1-text-mobile">
+          <p>
             სხეულის ხელოვნური ნაწილების და ორგანოების ზრდის იდეა, ახალი არ არის
             და მედიცინაში უკვე გამოიყენება. თუმცა, მეცნიერებმა, ცოტა ხნის წინ,
           </p>
@@ -47,11 +44,8 @@ const ArticleCardDark = () => {
           </p> */}
         </div>
       </div>
-      <div class="article-5-section-2-container">
-        <div
-          class="article-5-section-2"
-          className={styles.articledarkSecondaryContainer}
-        >
+      <div>
+        <div className={styles.articledarkSecondaryContainer}>
           <img
             className={styles.articleDarkSecondaryImage}
             src={spaceship}
@@ -75,10 +69,7 @@ const ArticleCardDark = () => {
             <h4>18:40</h4>
           </div>
         </div>
-        <div
-          class="article-5-section-2"
-          className={styles.articledarkSecondaryContainer}
-        >
+        <div className={styles.articledarkSecondaryContainer}>
           <img
             className={styles.articleDarkSecondaryImage}
             src={spaceship}

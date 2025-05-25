@@ -1,6 +1,7 @@
 .cardWrapper {
   padding-left: 16px;
   padding-right: 16px;
+  min-height: 280px;
 }
 
 .createCardArticle {
@@ -43,7 +44,7 @@
 }
 .articleSelectLogo {
   width: 22px;
-  height: auto;
+  height: 20px;
 }
 
 .createArticleButtonContainer {

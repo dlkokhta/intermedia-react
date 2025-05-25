@@ -3,7 +3,7 @@ import styles from "./MobileCarousel.module.css";
 
 import carousel1 from "../../assets/carousel1.png";
 import carousel2 from "../../assets/carousel2.png";
-import carousel3 from "../../assets/carousel3.png";
+import carousel3 from "../../assets/carousel3.webp";
 import carousel4 from "../../assets/carousel4.png";
 import carousel5 from "../../assets/carousel5.png";
 import eyeIcon from "../../assets/eye.png";

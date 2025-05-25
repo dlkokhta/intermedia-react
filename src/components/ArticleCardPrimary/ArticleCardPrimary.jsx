@@ -31,7 +31,12 @@ const ArticleCardPrimary = () => {
       </p>
       <div className={styles.userAndPostTime}>
         <div>
-          <img className={styles.userImage} src={userImage} alt="user image" />
+          <img
+            className={styles.userImage}
+            src={userImage}
+            alt="user image"
+            loading="lazy"
+          />
         </div>
 
         <h4>ლურჯი თოლია გუშინ, 18:40</h4>

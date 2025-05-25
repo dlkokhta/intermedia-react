@@ -6,6 +6,8 @@ import ArticleCardDark from "../../components/ArticleCardDark/ArticleCardDark";
 import MobileCarousel from "../../components/Carousel/MobileCarousel";
 import UserCard from "../../components/UserCard/UserCard";
 import NewCardGroup from "../../components/NewCardGroup/NewCardGroup";
+import Footer from "../../components/Footer/Footer";
+import styles from "./HomePage.module.css";
 
 const HomePage = () => {
   return (
@@ -20,6 +22,8 @@ const HomePage = () => {
       <MobileCarousel />
       <UserCard />
       <NewCardGroup />
+      <div className={styles.footerLine}></div>
+      <Footer />
     </>
   );
 };

@@ -70,3 +70,7 @@
 .userImage {
   width: 13px;
 }
+.article-5-section-2-container {
+  display: flex;
+  justify-content: space-between;
+}

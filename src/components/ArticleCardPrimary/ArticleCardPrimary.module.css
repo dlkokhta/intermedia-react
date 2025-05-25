@@ -15,6 +15,7 @@
 
 .spaceshipOne {
   width: 100%;
+  aspect-ratio: 16 / 9;
   margin-bottom: 8px;
   border-radius: 5px;
 }

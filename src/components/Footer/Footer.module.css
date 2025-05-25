@@ -1,0 +1,35 @@
+.footerContainer {
+  padding: 17px 60px 27px 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.socialMediaContainer img {
+  width: 24px;
+}
+.socialMediaContainer {
+  display: flex;
+  gap: 21.5px;
+}
+.footerContainer h1 {
+  font-weight: 500;
+  font-size: 14px;
+  margin-top: 24px;
+}
+
+.footerContainer h2 {
+  font-weight: 500;
+  font-size: 14px;
+  margin-top: 12px;
+}
+
+.footerContainer h3 {
+  font-weight: 500;
+  font-size: 12px;
+  margin-top: 20px;
+}
+
+.footerTextContainer {
+  text-align: center;
+}
