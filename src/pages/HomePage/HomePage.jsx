@@ -4,6 +4,7 @@ import CreateArticleCard from "../../components/CreateArticleCard/CreateArticleC
 import NewsCardPrimary from "../../components/NewsCardPrimary/NewsCardPrimary";
 import ArticleCardDark from "../../components/ArticleCardDark/ArticleCardDark";
 import MobileCarousel from "../../components/Carousel/MobileCarousel";
+import UserCard from "../../components/UserCard/UserCard";
 
 const HomePage = () => {
   return (
@@ -16,6 +17,7 @@ const HomePage = () => {
       <NewsCardPrimary />
       <ArticleCardDark />
       <MobileCarousel />
+      <UserCard />
     </>
   );
 };
