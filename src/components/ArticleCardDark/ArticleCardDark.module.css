@@ -99,11 +99,33 @@
   }
 
   .desktopContainerSecondary {
-    display: flex;
-    gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
   }
+
+  .desktopContainerSecondary > :nth-child(3) {
+    display: none;
+  }
+
   .articleDarkMain {
     padding-left: 60px;
     padding-right: 60px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .desktopContainerSecondary {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+  }
+
+  .articleDarkMain {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+  .desktopContainerSecondary > :nth-child(3) {
+    display: block;
   }
 }

@@ -6,6 +6,8 @@ const ArticleCardDarkDetails = ({
   containerClassName = "",
   imageSrc,
   imageAlt = "article image",
+  imageWidth,
+  imageHeight,
   paragraphText,
 }) => {
   return (
@@ -16,6 +18,8 @@ const ArticleCardDarkDetails = ({
         className={styles.articleDarkSecondaryImage}
         src={imageSrc}
         alt={imageAlt}
+        width={imageWidth}
+        height={imageHeight}
       />
 
       <h5>კატეგორია</h5>

@@ -27,12 +27,15 @@ const HomePage = () => {
         <ArticleCardPrimary />
         <CreateArticleCard />
       </div>
-
       <ArticleCardBlock />
       <NewsCardPrimary />
       <ArticleCardDark />
-      {/* <MobileCarousel /> */}
-      <DesktopCarousel />
+      <div className={styles.MobileCarousel}>
+        <MobileCarousel />
+      </div>
+      <div className={styles.DesktopCarousel}>
+        <DesktopCarousel />
+      </div>
       <UserCard />
       <NewCardGroup />
       <div className={styles.footerLine}></div>

@@ -34,3 +34,23 @@
 .footerTextContainer {
   text-align: center;
 }
+
+@media screen and (min-width: 1280px) {
+  .footerTextContainer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 34px;
+  }
+  .footerContainer h1 {
+    margin: 0;
+  }
+  .footerContainer h2 {
+    margin: 0;
+  }
+
+  .footerContainer {
+    margin-top: 48px;
+    padding-bottom: 76px;
+  }
+}

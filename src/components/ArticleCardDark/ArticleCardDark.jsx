@@ -28,6 +28,8 @@ const ArticleCardDark = () => {
         <ArticleCardDarkDetails
           containerClassName={styles.customContainer}
           imageSrc={spaceship}
+          imageWidth={343}
+          imageHeight={233}
           imageAlt="Amazing spaceship"
           paragraphText={`მეცნიერებმა შექმნეს გასაოცარი ჰოლოგრამა, რომელსაც შეგიძლია შეეხო და მოუსმინო`}
         />
@@ -37,12 +39,12 @@ const ArticleCardDark = () => {
           imageAlt="Amazing spaceship"
           paragraphText={`მეცნიერებმა შექმნეს გასაოცარი ჰოლოგრამა, რომელსაც შეგიძლია შეეხო და მოუსმინო`}
         />
-        {/* <ArticleCardDarkDetails
+        <ArticleCardDarkDetails
           containerClassName={styles.customContainer}
           imageSrc={spaceship}
           imageAlt="Amazing spaceship"
           paragraphText={`მეცნიერებმა შექმნეს გასაოცარი ჰოლოგრამა, რომელსაც შეგიძლია შეეხო და მოუსმინო`}
-        /> */}
+        />
       </div>
     </section>
   );

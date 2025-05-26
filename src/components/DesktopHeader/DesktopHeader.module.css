@@ -35,23 +35,6 @@
   font-weight: 300;
 }
 
-.desktopNav {
-  display: flex;
-  gap: 16px;
-}
-
-.desktopNavList {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  display: flex;
-  gap: 14px;
-  letter-spacing: 1px;
-  font-size: 14px;
-  color: #636363;
-  cursor: pointer;
-}
-
 .categoryAndArrow {
   display: flex;
   align-items: center;
@@ -117,5 +100,53 @@
 
   .vectorLogoAndText {
     margin-top: 5px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .desktopHeader {
+    padding-left: 160px;
+  }
+
+  .desktopNavListSecondary {
+    gap: 30px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .desktopNavListSecondary {
+    display: none;
+  }
+  .desktopNavList {
+    display: block;
+  }
+
+  .desktopNav {
+    display: flex;
+    gap: 16px;
+  }
+
+  .desktopNavList {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    gap: 14px;
+    letter-spacing: 1px;
+    font-size: 14px;
+    color: #636363;
+    cursor: pointer;
+  }
+  .desktopHeader {
+    padding-left: 70px;
+  }
+
+  .searchLogo {
+    width: 24px;
+    margin-left: 60px;
+  }
+  .desktopMainLogo {
+    margin-left: 64px;
+    margin-right: 64px;
   }
 }

@@ -7,6 +7,9 @@
 .desktopHeader {
   display: none;
 }
+.DesktopCarousel {
+  display: none;
+}
 
 @media screen and (min-width: 1024px) {
   .mobileHeader {
@@ -18,5 +21,11 @@
   .containerPrimary {
     display: flex;
     margin-top: 30px;
+  }
+  .MobileCarousel {
+    display: none;
+  }
+  .DesktopCarousel {
+    display: block;
   }
 }

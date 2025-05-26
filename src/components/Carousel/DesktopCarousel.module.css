@@ -3,23 +3,6 @@
   background-color: #fff;
 }
 
-/* .newsArticleHeader {
-  text-align: center;
-  margin-bottom: 1rem;
-}
-
-.newsArticleHeader h1 {
-  font-size: 2rem;
-  font-weight: bold;
-} */
-
-/* .newsArticleHeaderLine {
-  width: 60px;
-  height: 3px;
-  background: #000;
-  margin: 0.5rem auto;
-} */
-
 .desktopCarouselTitle {
   display: flex;
   align-items: center;
@@ -145,7 +128,5 @@
 
 @media screen and (min-width: 1024px) {
   .caruselSection {
-    padding-left: 60px;
-    padding-right: 60px;
   }
 }
