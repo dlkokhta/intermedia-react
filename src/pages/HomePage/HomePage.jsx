@@ -10,6 +10,7 @@ import Footer from "../../components/Footer/Footer";
 import styles from "./HomePage.module.css";
 import ArticleCardBlock from "../../components/ArticleCardBlock/ArticleCardBlock";
 import DesktopHeader from "../../components/DesktopHeader/DesktopHeader";
+import DesktopCarousel from "../../components/Carousel/DesktopCarousel";
 
 const HomePage = () => {
   return (
@@ -30,7 +31,8 @@ const HomePage = () => {
       <ArticleCardBlock />
       <NewsCardPrimary />
       <ArticleCardDark />
-      <MobileCarousel />
+      {/* <MobileCarousel /> */}
+      <DesktopCarousel />
       <UserCard />
       <NewCardGroup />
       <div className={styles.footerLine}></div>

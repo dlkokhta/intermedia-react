@@ -7,10 +7,15 @@ const ArticleCardPrimaryDetails = ({
   imageSrc,
   imageAlt = "spaceship image",
   paragraphText,
+  showTitle = true, // default is true
 }) => {
   return (
     <article className={`${styles.container} ${containerClassName}`}>
-      <h1>"ბოდიოიდები" – ორგანოების ტრანსპლანტაციისთვის შექმნილი ადამიანები</h1>
+      {showTitle && (
+        <h1>
+          "ბოდიოიდები" – ორგანოების ტრანსპლანტაციისთვის შექმნილი ადამიანები
+        </h1>
+      )}
 
       <div>
         <img

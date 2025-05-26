@@ -1,12 +1,12 @@
 import styles from "./ArticleCardDark.module.css";
 import astronaut from "../../assets/astronaut.webp";
 import spaceship from "../../assets/spaceship3.webp";
-import userImage from "../../assets/userImage.webp";
+import ArticleCardDarkDetails from "./ArticleCardDarkDetails";
 
 const ArticleCardDark = () => {
   return (
     <section className={styles.articleDarkMain}>
-      <div>
+      <div className={styles.desktopContainerPrimary}>
         <img
           className={styles.astronautImage}
           src={astronaut}
@@ -14,12 +14,6 @@ const ArticleCardDark = () => {
           width="343"
           height="148"
         />
-        {/* <img
-          className={styles.astronautImage}
-          class="human-image-desktop"
-          src={astronaut}
-          alt="astronaut image"
-        /> */}
         <div className={styles.articleDarkMainTextContainer}>
           <h2>
             "ბოდიოიდები" – ორგანოების ტრანსპლანტაციისთვის შექმნილი ადამიანები
@@ -28,100 +22,27 @@ const ArticleCardDark = () => {
             სხეულის ხელოვნური ნაწილების და ორგანოების ზრდის იდეა, ახალი არ არის
             და მედიცინაში უკვე გამოიყენება. თუმცა, მეცნიერებმა, ცოტა ხნის წინ,
           </p>
-          {/* <p class="article-5-section-1-text-desktop">
-            სხეულის ხელოვნური ნაწილების და ორგანოების ზრდის იდეა, ახალი არ
-            <br />
-            არის და მედიცინაში უკვე გამოიყენება. თუმცა, მეცნიერებმა, ცოტა ხნის
-            <br />
-            წინ, გამოაცხადეს, რომ ადამიანის მთელი სხეულის გაზრდა შეუძლიათ.
-            <br />
-            გადანერგვისთვის საჭირო, ადამიანის ორგანოების მწვავე დეფიციტის
-            <br />
-            პრობლემის მოსაგვარებლად, მეცნიერები უჩვეულო გადაწყვეტილებებს
-            <br />
-            ეძებენ, მათ შორის ისეთსაც, რომელიც შესაძლოა, საყოველთაოდ <br />
-            მიღებული წარმოდგენების და მორალური ნორმებისთვის, ნამდვილი
-            <br />
-            გამოწვევა იყოს.
-          </p> */}
         </div>
       </div>
-      <div>
-        <div className={styles.articledarkSecondaryContainer}>
-          <img
-            className={styles.articleDarkSecondaryImage}
-            src={spaceship}
-            alt="spaceship image"
-          />
-          <h5>კატეგორია</h5>
-          <p>
-            მეცნიერებმა შექმნეს გასაოცარი <br />
-            ჰოლოგრამა , რომელსაც შეგიძლია შეეხო <br />
-            და მოუსმინო
-          </p>
-          <div className={styles.userAndPostTime}>
-            <div>
-              <img
-                className={styles.userImage}
-                src={userImage}
-                alt="user image"
-              />
-            </div>
-            <h4>ლურჯი თოლია . გუშინ,</h4>
-            <h4>18:40</h4>
-          </div>
-        </div>
-        <div className={styles.articledarkSecondaryContainer}>
-          <img
-            className={styles.articleDarkSecondaryImage}
-            src={spaceship}
-            alt="spaceship image"
-          />
-          <h5>კატეგორია</h5>
-          <p>
-            მეცნიერებმა შექმნეს გასაოცარი <br />
-            ჰოლოგრამა , რომელსაც შეგიძლია შეეხო <br />
-            და მოუსმინო
-          </p>
-          <div className={styles.userAndPostTime}>
-            <div>
-              <img
-                className={styles.userImage}
-                src={userImage}
-                alt="user image"
-              />
-            </div>
-            <h4>ლურჯი თოლია . გუშინ,</h4>
-            <h4>18:40</h4>
-          </div>
-        </div>
-
-        {/* <div class="article-5-section-2-desktop">
-          <div class="article-5-section-2">
-            <img
-              class="spaceship3-image"
-              src="images/spaceship3.png"
-              alt="spaceship3 image"
-            />
-            <h5>კატეგორია</h5>
-            <p>
-              მეცნიერებმა შექმნეს გასაოცარი <br />
-              ჰოლოგრამა , რომელსაც შეგიძლია შეეხო <br />
-              და მოუსმინო
-            </p>
-            <div class="article-5-section-2-user-and-postTime">
-              <div>
-                <img
-                  class="user-image"
-                  src="images/userImage.png"
-                  alt="user image"
-                />
-              </div>
-              <h4>ლურჯი თოლია . გუშინ,</h4>
-              <h4>18:40</h4>
-            </div>
-          </div>
-        </div> */}
+      <div className={styles.desktopContainerSecondary}>
+        <ArticleCardDarkDetails
+          containerClassName={styles.customContainer}
+          imageSrc={spaceship}
+          imageAlt="Amazing spaceship"
+          paragraphText={`მეცნიერებმა შექმნეს გასაოცარი ჰოლოგრამა, რომელსაც შეგიძლია შეეხო და მოუსმინო`}
+        />
+        <ArticleCardDarkDetails
+          containerClassName={styles.customContainer}
+          imageSrc={spaceship}
+          imageAlt="Amazing spaceship"
+          paragraphText={`მეცნიერებმა შექმნეს გასაოცარი ჰოლოგრამა, რომელსაც შეგიძლია შეეხო და მოუსმინო`}
+        />
+        {/* <ArticleCardDarkDetails
+          containerClassName={styles.customContainer}
+          imageSrc={spaceship}
+          imageAlt="Amazing spaceship"
+          paragraphText={`მეცნიერებმა შექმნეს გასაოცარი ჰოლოგრამა, რომელსაც შეგიძლია შეეხო და მოუსმინო`}
+        /> */}
       </div>
     </section>
   );
