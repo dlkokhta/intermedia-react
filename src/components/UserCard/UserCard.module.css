@@ -58,3 +58,10 @@
     padding-right: 90px;
   }
 }
+
+@media screen and (min-width: 1024px) {
+  .userInfoContainer {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+}

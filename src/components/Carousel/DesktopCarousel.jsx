@@ -31,9 +31,14 @@ const slides = [
 const DesktopCarousel = () => {
   return (
     <section className={styles.caruselSection}>
-      <div className={styles.newsArticleHeader}>
-        <h1>სიახლეები</h1>
+      {/* <div className={styles.newsArticleHeader}>
+        <h1>რეიტინგული სტატიები</h1>
         <div className={styles.newsArticleHeaderLine}></div>
+      </div> */}
+
+      <div className={styles.desktopCarouselTitle}>
+        <h1>რეიტინგული სტატიები</h1>
+        <div className={styles.titleLine}></div>
       </div>
 
       <div className={styles.container}>

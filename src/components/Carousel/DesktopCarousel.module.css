@@ -3,7 +3,7 @@
   background-color: #fff;
 }
 
-.newsArticleHeader {
+/* .newsArticleHeader {
   text-align: center;
   margin-bottom: 1rem;
 }
@@ -11,21 +11,43 @@
 .newsArticleHeader h1 {
   font-size: 2rem;
   font-weight: bold;
-}
+} */
 
-.newsArticleHeaderLine {
+/* .newsArticleHeaderLine {
   width: 60px;
   height: 3px;
   background: #000;
   margin: 0.5rem auto;
+} */
+
+.desktopCarouselTitle {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  /* padding-left: 16px;
+  padding-right: 16px; */
+}
+
+.desktopCarouselTitle h1 {
+  font-weight: 500;
+  font-size: 10px;
+  white-space: nowrap;
+}
+
+.titleLine {
+  background-color: #dadada;
+  height: 1px;
+  width: 100%;
 }
 
 .container {
+  position: relative;
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
+  overflow: visible;
+  padding: 0 100px;
 }
-
 .slide {
   position: relative;
   width: 370px;
@@ -97,7 +119,7 @@
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  z-index: 10;
+  z-index: 20;
   background: none;
   border: none;
   padding: 0;
@@ -121,18 +143,9 @@
   transform: translateY(-50%) rotate(180deg);
 }
 
-/* @media screen and (min-width: 1024px) {
-  .articleCardBlock {
-    flex-direction: row;
-    gap: 10;
+@media screen and (min-width: 1024px) {
+  .caruselSection {
     padding-left: 60px;
     padding-right: 60px;
-    margin-top: 24px;
   }
-  .customPadding {
-    padding: 0;
-  }
-  .articleCardBlock {
-    gap: 15px;
-  }
-} */
+}

@@ -17,3 +17,37 @@
   height: 1px;
   width: 100%;
 }
+.desktopSection {
+  display: none;
+}
+
+.mobileSection {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+@media screen and (min-width: 1024px) {
+  .newsCardsContainer {
+    display: none;
+  }
+  .desktopSection {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-top: 44px;
+  }
+  .customPadding {
+    padding: 0;
+  }
+  .mobileSection {
+    display: none;
+  }
+  .newsCardPrimaryTitle {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+  .desktopSection {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+}
