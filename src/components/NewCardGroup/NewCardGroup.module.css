@@ -51,3 +51,18 @@
     padding-right: 60px;
   }
 }
+
+@media screen and (min-width: 1440px) {
+  .newsCardPrimaryTitle h1 {
+    font-size: 18px;
+  }
+
+  .newsCardPrimaryTitle {
+    padding-left: 64px;
+    padding-right: 64px;
+  }
+  .desktopSection {
+    padding-left: 64px;
+    padding-right: 64px;
+  }
+}

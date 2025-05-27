@@ -54,7 +54,7 @@ const CreateArticleCard = () => {
         </div>
         <div className={styles.createArticleButtonContainer}>
           <button className={styles.createArticleButton}>დაწერე სტატია</button>
-          <div>
+          <div className={styles.twoLineContainer}>
             <div className={styles.createArticleLogoLineOne}></div>
             <div className={styles.createArticleLogoLineTwo}></div>
           </div>

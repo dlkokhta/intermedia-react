@@ -28,6 +28,10 @@
   color: #b5b5b5;
   margin-bottom: 68px;
 }
+
+.desktopParagraph {
+  display: none;
+}
 /* 
 .articledarkSecondaryContainer h5 {
   color: #c6c6c6;
@@ -127,5 +131,45 @@
   }
   .desktopContainerSecondary > :nth-child(3) {
     display: block;
+  }
+
+  .desktopParagraph {
+    display: block;
+  }
+  .mobileParagraph {
+    display: none;
+  }
+
+  .articleDarkMainTextContainer h2 {
+    font-weight: 400;
+    font-size: 28px;
+
+    margin: 0;
+  }
+
+  .articleDarkMainTextContainer p {
+    font-weight: 400;
+    font-size: 16px;
+  }
+  .astronautImage {
+    width: 650px;
+    height: 342px;
+  }
+  .desktopContainerPrimary {
+    margin-top: 75px;
+    margin-bottom: 48px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .articleDarkMain {
+    padding-left: 64px;
+    padding-right: 64px;
+  }
+  .desktopParagraph {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.8px;
+    padding-right: 20px;
   }
 }

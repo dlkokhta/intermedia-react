@@ -126,7 +126,8 @@
   transform: translateY(-50%) rotate(180deg);
 }
 
-@media screen and (min-width: 1024px) {
-  .caruselSection {
+@media screen and (min-width: 1440px) {
+  .desktopCarouselTitle h1 {
+    font-size: 18px;
   }
 }

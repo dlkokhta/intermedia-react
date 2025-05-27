@@ -100,3 +100,15 @@
   .newsCardPrimaryTitle {
   }
 }
+
+@media screen and (min-width: 1440px) {
+  .newsCardPrimaryContainer {
+    padding-left: 64px;
+    padding-right: 64px;
+  }
+
+  .newsCardPrimaryTitle h1 {
+    font-weight: 500;
+    font-size: 18px;
+  }
+}

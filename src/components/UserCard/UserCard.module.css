@@ -44,6 +44,14 @@
   gap: 5px;
   margin-top: 10px;
 }
+.buttonContainer {
+  display: none;
+}
+.imageAndInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 @media screen and (min-width: 640px) {
   .userInfoContainer {
@@ -63,5 +71,75 @@
   .userInfoContainer {
     padding-left: 60px;
     padding-right: 60px;
+  }
+  .userInfoContainer {
+    display: flex;
+    justify-content: space-between;
+  }
+  .userInfo1 {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .userInfoContainer {
+    padding-left: 64px;
+    padding-right: 64px;
+    padding-bottom: 68px;
+  }
+
+  .userInfo1 {
+    display: flex;
+    flex-direction: column;
+    padding: 12px 33px 43px 12px;
+    justify-content: space-between;
+    position: relative;
+  }
+
+  .cardButton {
+    border: 1px solid #dadada;
+    padding: 5px 12px;
+    letter-spacing: 0.5px;
+    font-size: 12px;
+    text-align: center;
+    border-radius: 5px;
+  }
+
+  .imageAndInfo {
+    display: flex;
+    flex-direction: row;
+    margin-right: auto;
+    gap: 12px;
+  }
+  .buttonContainer {
+    display: flex;
+    flex-direction: row;
+    margin-right: auto;
+    gap: 8px;
+    margin-top: 16px;
+  }
+
+  .logoWrapper {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: fit-content;
+  }
+
+  .rectangleLogo {
+    width: 12px;
+    height: 22px;
+    margin-right: 10px;
+  }
+
+  .logoNumber {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 12px;
+    color: white;
+    margin-right: 12.5px;
+    margin-top: 3px;
+    font-weight: 100;
   }
 }

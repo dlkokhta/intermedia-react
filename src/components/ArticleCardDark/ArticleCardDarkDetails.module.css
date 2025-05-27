@@ -47,3 +47,19 @@
   display: flex;
   justify-content: space-between;
 }
+
+@media screen and (min-width: 1440px) {
+  .articleDarkSecondaryImage {
+    height: 230px;
+  }
+  .articledarkSecondaryContainer p {
+    font-weight: 400;
+    font-size: 16px;
+  }
+  .userAndPostTime {
+    margin-top: 12px;
+  }
+  .articledarkSecondaryContainer {
+    padding-bottom: 74px;
+  }
+}

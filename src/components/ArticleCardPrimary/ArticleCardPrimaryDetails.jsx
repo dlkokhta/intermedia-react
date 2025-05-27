@@ -7,23 +7,28 @@ const ArticleCardPrimaryDetails = ({
   imageSrc,
   imageAlt = "spaceship image",
   paragraphText,
-  showTitle = true, // default is true
+  showTitle = true,
+  titleSize,
+  showButton,
+  imgWidth,
+  imgHeight,
 }) => {
   return (
     <article className={`${styles.container} ${containerClassName}`}>
       {showTitle && (
-        <h1>
+        <h1 style={{ fontSize: titleSize }}>
           "ბოდიოიდები" – ორგანოების ტრანსპლანტაციისთვის შექმნილი ადამიანები
         </h1>
       )}
+
+      {showButton && <button className={styles.titleButton}>მეცნიერება</button>}
 
       <div>
         <img
           className={styles.spaceshipOne}
           src={imageSrc}
           alt={imageAlt}
-          width="317"
-          height="148"
+          style={{ width: imgWidth, height: imgHeight }}
         />
       </div>
 
