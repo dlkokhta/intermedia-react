@@ -66,3 +66,25 @@
     padding-right: 64px;
   }
 }
+
+@media screen and (min-width: 1836px) {
+  .newsCardPrimaryTitle {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  .desktopSection {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .newsCardPrimaryTitle {
+    padding-left: 120px;
+    padding-right: 120px;
+  }
+  .desktopSection {
+    padding-left: 120px;
+    padding-right: 120px;
+  }
+}

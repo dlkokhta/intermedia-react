@@ -151,3 +151,17 @@
     display: block;
   }
 }
+
+@media screen and (min-width: 1836px) {
+  .userInfoContainer {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .userInfoContainer {
+    padding-left: 120px;
+    padding-right: 120px;
+  }
+}

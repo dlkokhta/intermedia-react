@@ -21,6 +21,7 @@
   .containerPrimary {
     display: flex;
     margin-top: 30px;
+    justify-content: space-between;
   }
   .MobileCarousel {
     display: none;

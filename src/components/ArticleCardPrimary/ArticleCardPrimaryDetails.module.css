@@ -100,3 +100,15 @@
     padding-right: 20px;
   }
 }
+
+@media screen and (min-width: 1836px) {
+  .container {
+    padding-left: 100px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .container {
+    padding-left: 120px;
+  }
+}

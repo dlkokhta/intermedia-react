@@ -150,3 +150,25 @@
     margin-right: 64px;
   }
 }
+
+@media screen and (min-width: 1836px) {
+  .desktopMainLogo {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  .desktopHeader {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .desktopMainLogo {
+    margin-left: 120px;
+    margin-right: 120px;
+  }
+  .desktopHeader {
+    padding-left: 120px;
+    padding-right: 120px;
+  }
+}
