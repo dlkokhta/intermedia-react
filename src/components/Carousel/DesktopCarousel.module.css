@@ -1,4 +1,5 @@
 .caruselSection {
+  position: relative;
   padding: 2rem;
   background-color: #fff;
 }
@@ -7,6 +8,7 @@
   display: flex;
   align-items: center;
   gap: 12px;
+  margin-bottom: 44px;
   /* padding-left: 16px;
   padding-right: 16px; */
 }
@@ -55,6 +57,20 @@
   display: flex;
   flex-direction: column;
   z-index: 1;
+}
+
+.slide::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 1;
+  transition: background 0.3s ease;
+  pointer-events: none;
+}
+
+:global(.swiper-slide-active)::before {
+  background: rgba(0, 0, 0, 0);
 }
 
 .overlayTop {
@@ -117,17 +133,63 @@
   object-fit: contain;
 }
 
+/* Move arrows farther out */
 .arrowLeft {
-  left: 20px;
+  left: 40px; /* adjust as needed */
 }
 
 .arrowRight {
-  right: 20px;
+  right: 40px;
   transform: translateY(-50%) rotate(180deg);
 }
 
 @media screen and (min-width: 1440px) {
+  .arrowLeft {
+    left: 140px;
+  }
+
+  .arrowRight {
+    right: 140px;
+  }
+
+  .arrow img {
+    width: 44px;
+    height: 44px;
+  }
+
   .desktopCarouselTitle h1 {
+    font-weight: 500;
     font-size: 18px;
+    white-space: nowrap;
+  }
+}
+
+@media screen and (min-width: 1536px) {
+  .arrowLeft {
+    left: 180px;
+  }
+
+  .arrowRight {
+    right: 180px;
+  }
+}
+
+@media screen and (min-width: 1836px) {
+  .arrowLeft {
+    left: 330px;
+  }
+
+  .arrowRight {
+    right: 330px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .arrowLeft {
+    left: 360px;
+  }
+
+  .arrowRight {
+    right: 360px;
   }
 }

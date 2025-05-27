@@ -30,8 +30,8 @@ const ArticleCardDarkDetails = ({
         <div>
           <img className={styles.userImage} src={userImage} alt="user image" />
         </div>
-        <h4>ლურჯი თოლია . გუშინ,</h4>
-        <h4>18:40</h4>
+        <div>ლურჯი თოლია . გუშინ,</div>
+        <div>18:40</div>
       </div>
     </div>
   );

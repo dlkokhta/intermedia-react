@@ -44,7 +44,7 @@ const DesktopHeader = () => {
             <li>
               <a>კულტურა</a>
             </li>
-            <div className={styles.categoryAndArrow}>
+            <li className={styles.categoryAndArrow}>
               <li>
                 <a>მეტი</a>
               </li>
@@ -53,7 +53,7 @@ const DesktopHeader = () => {
                 src={arrowDropDown}
                 alt="dropdown arrow"
               />
-            </div>
+            </li>
           </ul>
 
           <ul className={styles.desktopNavListSecondary}>
@@ -73,7 +73,7 @@ const DesktopHeader = () => {
             <li>
               <a>კულტურა</a>
             </li>
-            <div className={styles.categoryAndArrow}>
+            <li className={styles.categoryAndArrow}>
               <li>
                 <a>მეტი</a>
               </li>
@@ -82,7 +82,7 @@ const DesktopHeader = () => {
                 src={arrowDropDown}
                 alt="dropdown arrow"
               />
-            </div>
+            </li>
           </ul>
         </nav>
         <div>

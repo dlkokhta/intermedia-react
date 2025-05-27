@@ -41,6 +41,13 @@ const DesktopCarousel = () => {
         <div className={styles.titleLine}></div>
       </div>
 
+      <button className={`${styles.arrow} ${styles.arrowLeft}`}>
+        <img src={nextArrow} alt="Previous" />
+      </button>
+      <button className={`${styles.arrow} ${styles.arrowRight}`}>
+        <img src={nextArrow} alt="Next" />
+      </button>
+
       <div className={styles.container}>
         <Swiper
           modules={[Navigation, EffectCoverflow]}
@@ -49,12 +56,13 @@ const DesktopCarousel = () => {
           centeredSlides={true}
           slidesPerView="auto"
           loop={true}
-          initialSlide={2}
+          initialSlide={4}
           coverflowEffect={{
             rotate: 0,
             stretch: 0,
-            depth: 100,
+            depth: 200,
             modifier: 2.5,
+            slideShadows: false,
           }}
           navigation={{
             nextEl: `.${styles.arrowRight}`,
@@ -62,7 +70,7 @@ const DesktopCarousel = () => {
           }}
         >
           {slides.map((img, index) => (
-            <SwiperSlide key={index} className={`${styles.slide}`}>
+            <SwiperSlide key={index} className={styles.slide}>
               <img src={img} alt={`Slide ${index + 1}`} />
               <div className={styles.overlayBottom}>
                 <div className={styles.overlayTop}>
@@ -85,13 +93,6 @@ const DesktopCarousel = () => {
               </div>
             </SwiperSlide>
           ))}
-
-          <button className={`${styles.arrow} ${styles.arrowLeft}`}>
-            <img src={nextArrow} alt="Previous" />
-          </button>
-          <button className={`${styles.arrow} ${styles.arrowRight}`}>
-            <img src={nextArrow} alt="Next" />
-          </button>
         </Swiper>
       </div>
     </section>
