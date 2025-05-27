@@ -1,7 +1,7 @@
 import styles from "./Footer.module.css";
-import facebook from "../../assets/facebook.png";
-import instagram from "../../assets/instagram.png";
-import x from "../../assets/x.png";
+import facebook from "../../assets/facebook.webp";
+import instagram from "../../assets/instagram.webp";
+import x from "../../assets/x.webp";
 
 const Footer = () => {
   return (

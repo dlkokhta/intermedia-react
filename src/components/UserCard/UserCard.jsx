@@ -1,6 +1,6 @@
 import styles from "./UserCard.module.css";
 import girlImage from "../../assets/girl.webp";
-import fileIcon from "../../assets/file.png";
+import fileIcon from "../../assets/file.webp";
 import rectangle from "../../assets/rectangle.png";
 
 const UserCard = () => {

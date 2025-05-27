@@ -1,6 +1,6 @@
 import styles from "./MobileHeader.module.css";
 import logo from "../../assets/logo.png";
-import signInLogo from "../../assets/signInLogo.png";
+import signInLogo from "../../assets/signInLogo.webp";
 import arrowDropDown from "../../assets/arrowDropDown.png";
 
 const MobileHeader = () => {

@@ -1,6 +1,6 @@
 import styles from "./CreateArticleCard.module.css";
-import groupLogo from "../../assets/group.png";
-import selectLogo from "../../assets/select.png";
+import groupLogo from "../../assets/group.webp";
+import selectLogo from "../../assets/select.webp";
 
 const CreateArticleCard = () => {
   return (
