@@ -9,6 +9,7 @@ const ArticleCardDarkDetails = ({
   imageWidth,
   imageHeight,
   paragraphText,
+  imageNode,
 }) => {
   return (
     <div

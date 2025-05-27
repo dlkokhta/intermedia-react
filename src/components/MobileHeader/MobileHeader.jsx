@@ -24,7 +24,7 @@ const MobileHeader = () => {
       <div className={styles.headerLine}></div>
       <nav>
         <ul>
-          <li className={styles.categoryAndArrow}>
+          <div className={styles.categoryAndArrow}>
             <ul>
               <a>კატეგორიები</a>
             </ul>
@@ -33,7 +33,7 @@ const MobileHeader = () => {
               src={arrowDropDown}
               alt="arrow Drop Down"
             />
-          </li>
+          </div>
 
           <ul>
             <a>პოლიტიკა</a>
