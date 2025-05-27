@@ -54,7 +54,7 @@ const DesktopCarousel = () => {
           className={`tranding-slider ${styles.swiper}`}
           effect="coverflow"
           centeredSlides={true}
-          slidesPerView="auto"
+          slidesPerView="2.5"
           loop={true}
           initialSlide={4}
           coverflowEffect={{
